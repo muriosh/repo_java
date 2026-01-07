@@ -13,6 +13,7 @@ public class App {
 
         System.out.println("------------------------------------------");
         System.out.println("Mensaje añadido para probar el control de cambios");
+        System.out.println("(“>Epi: ¡Hola Blas!");
         for (Superheroe heroe : s) {
             System.out.println(heroe.getNombre()+" "+heroe.getPoderPpal()+" "+heroe.getNivelDePoder()+" "+heroe.getColorDelDisfraz());
         }
